@@ -7,10 +7,12 @@ export default {
   theme: {
   	extend: {
   		fontFamily: {
+  			sans: ['Satoshi', 'system-ui', 'sans-serif'],
   			serif: ['DM Serif Text', 'serif'],
   			mono: ['Roboto Mono', 'Fragment Mono', 'monospace'],
   			fragment: ['Fragment Mono', 'monospace'],
   			spectral: ['Spectral', 'serif'],
+  			satoshi: ['Satoshi', 'sans-serif'],
   		},
   		borderRadius: {
   			lg: 'var(--radius)',

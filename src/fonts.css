@@ -1,1 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Fragment+Mono:ital@0;1&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./assets/fonts/Satoshi/Fonts/WEB/fonts/Satoshi-Variable.woff2') format('woff2'),
+       url('./assets/fonts/Satoshi/Fonts/WEB/fonts/Satoshi-Variable.woff') format('woff');
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./assets/fonts/Satoshi/Fonts/WEB/fonts/Satoshi-VariableItalic.woff2') format('woff2'),
+       url('./assets/fonts/Satoshi/Fonts/WEB/fonts/Satoshi-VariableItalic.woff') format('woff');
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: italic;
+}
