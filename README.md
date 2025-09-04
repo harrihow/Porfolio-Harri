@@ -1,12 +1,74 @@
-# React + Vite
+# Portfolio-Harri-2025
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built with modern web technologies to showcase skills, projects, and services.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Frontend**: React 19.1.1, React Router DOM
+- **Build Tool**: Vite 7.1.2
+- **Styling**: Tailwind CSS 3.4.17
+- **Animation**: Framer Motion 12.23.12
+- **UI Components**: Radix UI, Lucide React
+- **Linting**: ESLint
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+Portfolio-Harri-2025/
+├── public/                 # Static assets
+├── src/
+│   ├── components/        # React components
+│   │   ├── layout/        # Navbar and Footer components
+│   │   ├── pages/         # Page components (About, Projects, etc.)
+│   │   └── Main.jsx       # Main homepage component
+│   ├── assets/            # Images and fonts
+│   ├── styles/            # CSS files
+│   ├── App.jsx            # Main app with routing
+│   └── main.jsx           # App entry point
+├── package.json           # Dependencies and scripts
+└── vite.config.js         # Vite configuration
+```
+
+## 🛠️ Development
+
+### Setup
+```bash
+npm install
+```
+
+### Development Server
+```bash
+npm run dev
+```
+
+### Build for Production
+```bash
+npm run build
+```
+
+### Preview Build Locally
+```bash
+npm run preview
+```
+
+### Deploy to GitHub Pages
+```bash
+npm run deploy
+```
+
+## 🎨 Design Approach
+
+This portfolio uses a simple, direct approach:
+
+- Each page directly imports Navbar and Footer components
+- No complex layout wrappers
+- Clear, straightforward component structure
+- Easy to understand and maintain
+
+## 📱 Features
+
+- Responsive design with Tailwind CSS
+- Smooth animations with Framer Motion
+- Client-side routing with React Router
+- Fast development with Vite
+- Deployable to GitHub Pages

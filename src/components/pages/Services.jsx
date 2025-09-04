@@ -1,8 +1,8 @@
 import React from 'react'
-import Navbar from './Navbar'
-import Footer from './Footer'
-import bgwebsite from '../assets/bgwebsite.jpg'
-import branding from '../assets/branding.jpg'
+import Navbar from '../layout/Navbar'
+import Footer from '../layout/Footer'
+import bgwebsite from '../../assets/images/general/bgwebsite.jpg'
+import branding from '../../assets/images/general/branding.jpg'
 
 function Services() {
     return (

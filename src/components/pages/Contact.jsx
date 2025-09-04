@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from './Navbar'
-import Footer from './Footer'
+import Navbar from '../layout/Navbar'
+import Footer from '../layout/Footer'
 
 function Contact() {
     return (

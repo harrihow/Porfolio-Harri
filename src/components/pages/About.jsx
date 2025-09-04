@@ -1,7 +1,7 @@
 import React from 'react'
-import aboutPic from '../assets/aboutpic.jpg'
-import Navbar from './Navbar'
-import Footer from './Footer'
+import aboutPic from '../../assets/images/profile/aboutpic.jpg'
+import Navbar from '../layout/Navbar'
+import Footer from '../layout/Footer'
 
 function About() {
     return (

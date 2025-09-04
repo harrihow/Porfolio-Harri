@@ -1,8 +1,8 @@
 import React from 'react'
-import Navbar from './Navbar'
-import Footer from './Footer'
-import ticketGeneratorImg from './ui/ticket.png'
-import machinarriImg from './ui/machinarri.png'
+import Navbar from '../layout/Navbar'
+import Footer from '../layout/Footer'
+import ticketGeneratorImg from '../../assets/images/projects/ticket.png'
+import machinarriImg from '../../assets/images/projects/machinarri.png'
 
 function Projects() {
   return (

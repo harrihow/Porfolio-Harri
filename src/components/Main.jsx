@@ -1,21 +1,18 @@
 import React from 'react'
-import Navbar from './Navbar'
-import HeroSection from './HeroSection'
-import Manifesto from './Manifesto'
-import Footer from './Footer'
+import Navbar from './layout/Navbar'
+import Footer from './layout/Footer'
+import HeroSection from './pages/Home/HeroSection'
 
 function Main() {
     return (
         <>
-            <main className='h-screen w-full bg-white pl-10 pr-10'>
+            <main className='h-screen w-full bg-white'>
                 <Navbar />
                 <HeroSection />
-                <Manifesto />
                 <footer className='w-full'>
                     <Footer />
                 </footer>
             </main>
-
         </>
     )
 }
