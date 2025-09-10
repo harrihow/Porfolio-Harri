@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://harrihow.github.io/Porfolio-Harri",
+  "homepage": "https://harrihow.github.io/Portfolio-Harri",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -20,10 +20,13 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "framer-motion": "^12.23.12",
+    "icons": "^1.0.0",
     "lucide-react": "^0.542.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "react-icons": "^5.5.0",
     "react-router-dom": "^6.30.1",
+    "react-scroll": "^1.9.3",
     "tailwind-merge": "^3.3.1",
     "tailwindcss-animate": "^1.0.7"
   },

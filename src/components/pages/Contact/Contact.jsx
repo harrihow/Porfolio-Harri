@@ -1,15 +1,9 @@
 import React from 'react'
-import Navbar from '../layout/Navbar'
-import Footer from '../layout/Footer'
 
 function Contact() {
     return (
         <>
-            <nav className='pl-4 pr-4'>
-                <Navbar />
-            </nav>
-
-            <main className='flex'>
+            <main className='flex' id='contact'>
                 <section className='w-1/2 min-h-screen flex flex-col justify-center items-center px-8'>
                     <div className='text-center space-y-1'>
                         <h1 className='text-[5rem] font-bold leading-none'>CONTACT FORM</h1>
@@ -107,7 +101,6 @@ function Contact() {
                     </div>
                 </section>
             </main>
-            <Footer />
         </>
     )
 }

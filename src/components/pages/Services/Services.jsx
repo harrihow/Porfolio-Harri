@@ -1,16 +1,11 @@
 import React from 'react'
-import Navbar from '../layout/Navbar'
-import Footer from '../layout/Footer'
-import bgwebsite from '../../assets/images/general/bgwebsite.jpg'
-import branding from '../../assets/images/general/branding.jpg'
+import bgwebsite from '../../../assets/images/bgwebsite.jpg'
+import branding from '../../../assets/images/branding.jpg'
 
 function Services() {
     return (
         <>
-            <div className='w-full bg-white pl-10 pr-10'>
-                <Navbar />
-            </div>
-            <main className='min-h-screen w-full grid grid-cols-2'>
+            <main className='min-h-screen w-full grid grid-cols-2' id='services'>
                 <section className='flex justify-center items-center'>
                     <div className='space-y-4'>
                         <h1 className='text-7xl font-bold'>Website</h1>
@@ -79,7 +74,6 @@ function Services() {
                     <img src={branding} alt="Website" className="w-auto h-auto" />
                 </section>
             </main>
-            <Footer />
         </>
     )
 }

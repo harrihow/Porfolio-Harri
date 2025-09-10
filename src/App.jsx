@@ -1,21 +1,20 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Main from "./components/Main"
-import Services from "./components/pages/Services"
-import About from './components/pages/About'
-import Contact from './components/pages/Contact'
-import Projects from './components/pages/Projects'
+import Navbar from './components/layout/Navbar'
+import HeroSection from './components/pages/Home/HeroSection'
+import About from './components/pages/About/About'
+import Projects from './components/pages/Projects/Projects'
+import Contact from './components/pages/Contact/Contact'
+import Services from './components/pages/Services/Services'
 
 function App() {
   return (
-    <Router basename={import.meta.env.MODE === 'production' ? '/Porfolio-Harri' : ''}>
-      <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/projects" element={<Projects />} />
-      </Routes>
-    </Router>
+    <>
+    <Navbar />
+    <HeroSection />
+    <About />
+    <Projects />
+    <Services />
+    <Contact />
+    </>
   )
 }
 
