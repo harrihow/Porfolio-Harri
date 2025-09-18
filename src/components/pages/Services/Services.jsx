@@ -8,17 +8,17 @@ function Services() {
             <main className='min-h-screen w-full grid grid-cols-2' id='services'>
                 <section className='flex justify-center items-center'>
                     <div className='space-y-4'>
-                        <h1 className='text-7xl font-bold'>Website</h1>
+                        <h1 className='text-7xl font-bold text-gray-700'>Website</h1>
                         <div className='grid grid-cols-3 grid-rows-2 gap-1 '>
-                            <p className='block'>• UI/UX</p>
-                            <p className='block'>• Development</p>
-                            <p className='block'>• SEO</p>
-                            <p className='block'>• Responsive Mobile</p>
-                            <p className='block'>• Custom Made</p>
+                            <p className='block text-gray-700'>• UI/UX</p>
+                            <p className='block text-gray-700'>• Development</p>
+                            <p className='block text-gray-700'>• SEO</p>
+                            <p className='block text-gray-700'>• Responsive Mobile</p>
+                            <p className='block text-gray-700'>• Custom Made</p>
                         </div>
                         <hr className="border-gray-300" />
                         <div>
-                            <p className='font-light leading-tight'>
+                            <p className='font-light leading-tight text-gray-700'>
                                 A website goes beyond being a showcase—it’s an experience. I build <br />
                                 tailored sites that merge thoughtful UX, elegant UI, <br />
                                 and engaging interactions, brought to life through animations, <br />
@@ -27,7 +27,7 @@ function Services() {
                         </div>
                         <hr className="border-gray-300" />
                         <div>
-                            <p>6 to 8 weeks</p>
+                            <p class='text-gray-700'>6 to 8 weeks</p>
                         </div>
                         <hr className="border-gray-300" />
                         <div>
@@ -42,17 +42,17 @@ function Services() {
             <main className='min-h-screen w-full grid grid-cols-2'>
                 <section className='flex justify-center items-center'>
                     <div className='space-y-4'>
-                        <h1 className='text-7xl font-bold'>Branding</h1>
+                        <h1 className='text-7xl font-bold text-gray-700'>Branding</h1>
                         <div className='grid grid-cols-2 gap-x-4 gap-y-1 max-w-md'>
-                            <p className='block'>• Brand Strategy</p>
-                            <p className='block'>• Visual Identity</p>
-                            <p className='block'>• Complete Graphic Charter</p>
-                            <p className='block'>• Brand Book</p>
-                            <p className='block'>• Print</p>
+                            <p className='block text-gray-700'>• Brand Strategy</p>
+                            <p className='block text-gray-700'>• Visual Identity</p>
+                            <p className='block text-gray-700'>• Complete Graphic Charter</p>
+                            <p className='block text-gray-700'>• Brand Book</p>
+                            <p className='block text-gray-700'>• Print</p>
                         </div>
                         <hr className="border-gray-300" />
                         <div>
-                            <p className='font-light leading-tight'>
+                            <p className='font-light leading-tight text-gray-700'>
                                 My branding process begins with understanding your mission, <br />
                                 vision, positioning, and audience. <br />
                                 From there, I create a visual language unique to your brand. <br />
@@ -62,7 +62,7 @@ function Services() {
                         </div>
                         <hr className="border-gray-300" />
                         <div>
-                            <p>4 to 6 weeks</p>
+                            <p class='text-gray-700'>4 to 6 weeks</p>
                         </div>
                         <hr className="border-gray-300" />
                         <div>

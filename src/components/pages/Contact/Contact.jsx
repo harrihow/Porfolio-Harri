@@ -27,7 +27,7 @@ function Contact() {
                                     id='brandName'
                                     name='brandName'
                                     placeholder='Enter your brand/company name or "To be defined"'
-                                    className='w-full px-0 py-2 bg-transparent border-0 border-b-2 border-gray-300 focus:outline-none focus:border-blue-500 transition-colors duration-300'
+                                    className='w-full px-0 py-2 bg-transparent border-0 border-b-2 border-gray-300 focus:outline-none focus:border-blue-500 transition-colors duration-300 text-gray-700'
                                     required
                                 />
                             </div>
@@ -70,7 +70,7 @@ function Contact() {
                                         id="fullname"
                                         name="fullname"
                                         placeholder="Enter your full name"
-                                        className="w-full px-0 py-2 bg-transparent border-0 border-b-2 border-gray-300 focus:outline-none focus:border-blue-500 transition-colors duration-300"
+                                        className="w-full px-0 py-2 bg-transparent border-0 border-b-2 border-gray-300 focus:outline-none focus:border-blue-500 transition-colors duration-300 text-gray-700"
                                         required
                                     />
                                 </div>
@@ -83,7 +83,7 @@ function Contact() {
                                         id="email"
                                         name="email"
                                         placeholder='Enter your email'
-                                        className='w-full px-0 py-2 bg-transparent border-0 border-b-2 border-gray-300 focus:outline-none focus:border-blue-500 transition-colors duration-300'
+                                        className='w-full px-0 py-2 bg-transparent border-0 border-b-2 border-gray-300 focus:outline-none focus:border-blue-500 transition-colors duration-300 text-gray-700'
                                         required
                                     />
                                 </div>

@@ -11,18 +11,18 @@ function Navbar() {
   }
 
   return (
-    <nav className="flex justify-between items-center h-20 px-8 bg-white shadow-md fixed top-0 left-0 w-full z-50">
+    <nav className="flex justify-between items-center h-20 px-8 bg-[#18181b] text-[#f4f4f5] shadow-md fixed top-0 left-0 w-full z-50 border-b border-[#f4f4f5]">
       {/* Logo */}
       <div className="text-2xl font-satoshi font-bold">HF</div>
 
       {/* Desktop Links */}
-      <div className="hidden md:flex items-center space-x-8 text-sm md:text-base lg:text-lg">
-        <Link to="home" spy={true} smooth={true} offset={-70} duration={500} onClick={closeMenu} className="cursor-pointer">Home</Link>
-        <Link to="about" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu} className="cursor-pointer">About</Link>
-        <Link to="projects" spy={true} smooth={true} offset={-70} duration={500} onClick={closeMenu} className="cursor-pointer">Projects</Link>
-        <Link to="services" spy={true} smooth={true} offset={-70} duration={500} onClick={closeMenu} className="cursor-pointer">Services</Link>
-        <Link to="contact" spy={true} smooth={true} offset={-70} duration={500} onClick={closeMenu} className="cursor-pointer">Contact</Link>
-        <div className="px-4 border-2 border-black rounded-lg py-1">
+      <div className="hidden md:flex items-center space-x-8 text-md">
+        <Link to="home" spy={true} smooth={true} offset={-70} duration={500} onClick={closeMenu} className="cursor-pointer hover:text-[#a1a1aa]">Home</Link>
+        <Link to="about" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu} className="cursor-pointer hover:text-[#a1a1aa]">About</Link>
+        <Link to="projects" spy={true} smooth={true} offset={-70} duration={500} onClick={closeMenu} className="cursor-pointer hover:text-[#a1a1aa]">Projects</Link>
+        <Link to="services" spy={true} smooth={true} offset={-70} duration={500} onClick={closeMenu} className="cursor-pointer hover:text-[#a1a1aa]">Services</Link>
+        <Link to="contact" spy={true} smooth={true} offset={-70} duration={500} onClick={closeMenu} className="cursor-pointer hover:text-[#a1a1aa]" >Contact</Link>
+        <div className="px-4 border border-black rounded-lg py-1">
           <button>My Resume</button>
         </div>
       </div>
@@ -43,7 +43,7 @@ function Navbar() {
         <Link to="about" spy={true} smooth={true} offset={-70} duration={500} onClick={closeMenu} className="cursor-pointer">About</Link>
         <Link to="projects" spy={true} smooth={true} offset={-70} duration={500} onClick={closeMenu} className="cursor-pointer">Projects</Link>
         <Link to="contact" spy={true} smooth={true} offset={-70} duration={500} onClick={closeMenu} className="cursor-pointer">Contact</Link>
-        <div className="px-4 border-2 border-black rounded-lg py-1">
+        <div className="px-4 border border-black rounded-lg py-1">
           <button>My Resume</button>
         </div>
       </div>
